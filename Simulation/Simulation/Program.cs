@@ -1,3 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-Console.WriteLine("Hello, World!");
+﻿var simulation = new Simulation.Simulation();
+simulation.CreateNewWorld(3,3);
+simulation.SpawnEntity();
+simulation.RenderMap();
